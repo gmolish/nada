@@ -1,0 +1,142 @@
+body {
+  background-color:white;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: Century Gothic, Arial;
+  padding-top: 120px;
+}
+
+h2 {
+  color:black;
+}
+
+li {
+  list-style-type:none;
+}
+
+.navbar {
+  height: 100px;
+  background-color: white;
+}
+
+.nav-item {
+  margin-top:30px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.nav-item a:hover {
+  text-decoration:none;
+}
+
+
+#logo {
+  color: green;
+}
+
+/*  Borrowed from Derek Banas BootStap Tutorial: Carousel Styling*/
+.slide1{
+  background-image: url('http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.slide2{
+  background-image: url('https://www.trumpgolf.com/images/dynamic/getImage.gif?ID=100014');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.slide3{
+  background-image: url('http://mountainviewgolfcourse.net/wp-content/uploads/background/5.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 1.4em;
+}
+/* End of borrow*/
+
+#course-offerings {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 50px;
+}
+
+.course-img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.course-img ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+.footer {
+  background-color:grey;
+  color:white;
+  height: 400px;
+}
+
+.footer-top {
+  margin-top: 20px;
+  height: 320px;
+}
+
+.footer-top input {
+  width: 30vw;
+}
+
+
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.footer2 {
+  height: 50px;
+}
+
+.footer-bottom li{
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+#social_media {
+  padding-right: 50px;
+}
