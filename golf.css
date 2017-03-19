@@ -1,3 +1,5 @@
+/* Overall Page*/
+
 body {
   background-color:white;
   max-width: 100%;
@@ -14,6 +16,7 @@ li {
   list-style-type:none;
 }
 
+/* Navigation Bar */
 .navbar {
   height: 100px;
   background-color: white;
@@ -34,7 +37,7 @@ li {
   color: green;
 }
 
-/*  Borrowed from Derek Banas BootStap Tutorial: Carousel Styling*/
+/*Carousel*/
 .slide1{
   background-image: url('http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg');
   height: 500px;
@@ -82,7 +85,7 @@ li {
 .carousel-caption p{
   font-size: 1.4em;
 }
-/* End of borrow*/
+/*Grid*/
 
 #course-offerings {
   margin-top: 50px;
@@ -90,6 +93,7 @@ li {
   margin-right: 120px;
   margin-bottom: 50px;
 }
+
 
 .course-img {
   margin-top: 15px;
@@ -102,6 +106,45 @@ li {
   margin: auto;
 }
 
+.thumbnail {
+  border: none;
+}
+
+.thumbnail img{
+    border-radius: 5px;
+    max-width: 100%; /* do not stretch the bootstrap column */
+}
+
+.img-wrapper{
+	width: 100%;
+	padding-bottom: 75%; /* your aspect ratio here! */
+	position: relative;
+}
+
+.img-wrapper img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-height: 100%; /* optional: if you want the smallest images to fill the .thumbnail */
+}
+
+.caption p {
+  margin: 0;
+}
+
+.caption button {
+  margin-top: 10px;
+}
+
+.caption button:hover {
+  background-color: green;
+}
+
+
+/*Footer*/
+
 .footer {
   background-color:grey;
   color:white;
@@ -109,7 +152,7 @@ li {
 }
 
 .footer-top {
-  margin-top: 20px;
+  margin-top: 50px;
   height: 320px;
 }
 

@@ -7,7 +7,6 @@
     Grid
       Uniform image sizes while staying responsive
       Clean up description layout
-      Scale whole grid (including description) rather than just images
       Course filter
       xs-viewport, image keeps getting smaller
       Dynamic course data:
@@ -123,104 +122,141 @@
     </div>
 
     <!--Grid -->
-    <div class = "main text-center" id="course-offerings">
+    <div class = "main" id="course-offerings">
       <div class = "container-fluid">
         <div class = 'row'>
-          <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img container-fluid">
-            <img class ='img-responsive' src="http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+          <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
+            <div class="thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg">
+              </div>
+              <div class = "caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+            </div>
           </div>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="https://www.trumpgolf.com/images/dynamic/getImage.gif?ID=100014">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class = "thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="https://www.trumpgolf.com/images/dynamic/getImage.gif?ID=100014">
+              </div>
+              <div class="caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+              </div>
           </div>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="http://mountainviewgolfcourse.net/wp-content/uploads/background/5.jpg">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class = "thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="http://mountainviewgolfcourse.net/wp-content/uploads/background/5.jpg">
+              </div>
+              <div class="caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+            </div>
           </div>
         </div>
         <div class = 'row'>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="http://mountainviewgolfcourse.net/wp-content/uploads/background/5.jpg">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class="thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg">
+              </div>
+              <div class = "caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+            </div>
           </div>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class = "thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="https://www.trumpgolf.com/images/dynamic/getImage.gif?ID=100014">
+              </div>
+              <div class="caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+              </div>
           </div>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="https://www.trumpgolf.com/images/dynamic/getImage.gif?ID=100014">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class = "thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="http://mountainviewgolfcourse.net/wp-content/uploads/background/5.jpg">
+              </div>
+              <div class="caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+            </div>
           </div>
         </div>
         <div class = 'row'>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="https://www.trumpgolf.com/images/dynamic/getImage.gif?ID=100014">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class="thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg">
+              </div>
+              <div class = "caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+            </div>
           </div>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class = "thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="https://www.trumpgolf.com/images/dynamic/getImage.gif?ID=100014">
+              </div>
+              <div class="caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+              </div>
           </div>
           <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12 course-img">
-            <img class ='img-responsive' src="http://mountainviewgolfcourse.net/wp-content/uploads/background/5.jpg">
-            <h4> Sample Sample Golf Club </h4>
-            <ul>
-              <li class='text-primary'> Only $50 for 2 Players </li>
-              <li> 18 Holes</li>
-              <li> Par-72</li>
-              <button class='btn'> View More Details </button>
-            </ul>
+            <div class = "thumbnail">
+              <div class="img-wrapper">
+                <img class ='img-responsive' src="http://mountainviewgolfcourse.net/wp-content/uploads/background/5.jpg">
+              </div>
+              <div class="caption">
+                <h4> Sample Sample Golf Club </h4>
+                <p class='text-primary'> Only $50 for 2 Players </p>
+                <p> 18 Holes</p>
+                <p> Par-72</p>
+                <button class='btn'> View More Details </button>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
@@ -252,7 +288,7 @@
                   <option>US - Arizona</option>
                 </select>
               </div>
-              <button class='btn'> Suscribe</button>
+              <button class='btn'> Subscribe</button>
             </form>
           </div>
         </div>
